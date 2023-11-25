@@ -20,6 +20,9 @@ pygame.display.set_caption("Pyno Game")
 
 dinosaur_img = pygame.image.load('assets/dino.png')
 cactus_img = pygame.image.load('assets/cactus.png')
+icon = pygame.image.load ('assets/icon.png')
+
+pygame.display.set_icon(icon)
 
 dinosaur_img = pygame.transform.scale(dinosaur_img, (50, 50))
 cactus_img = pygame.transform.scale(cactus_img, (30, 50))
